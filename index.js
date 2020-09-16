@@ -5,7 +5,7 @@
   .then((data) => {
     document.getElementById("icon").src = data.weather[0].icon;
     document.getElementById("country").innerText = data.sys.country;
-    document.getElementById("temp").innerText = data.main.temp;
+    document.getElementById("temp").innerText = data.main.temp + "°";
   }) 
   
  

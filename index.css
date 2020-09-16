@@ -17,4 +17,23 @@ body{
     font-size: 25px;
     position: relative;
     top: 20px;
+    margin-bottom: 50px;
+}
+#country{
+    color:#37474f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin:0;
+    padding:0;
+}
+#temp{
+    color:#37474f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin:0;
+    padding:0;
+}
+#icon{
+    width:45px;
+    height: 45px;
 }
