@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card-container{
+    text-align: center;
+    width: 20vw;
+    height: 85vh;
+    box-shadow: 2px 2px #42a5f5;
+    background-image:linear-gradient(to bottom right,#1e88e5,#42a5f5) ;
+    border-radius:25px;
+}
+#title{
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+}
