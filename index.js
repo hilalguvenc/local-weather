@@ -6,10 +6,10 @@ fetch("https://fcc-weather-api.freecodecamp.repl.co/api/current?lat=35&lon=139")
     document.getElementById("temp").innerText = data.main.temp + "°";
     document.getElementById("weather-text").innerText = data.weather[0].main;
     document.getElementById("pressure").innerText =
-      "Pressure" + data.main.pressure;
+      "Pressure "  + data.main.pressure + "hPa";
     document.getElementById("humidity").innerText =
-      "Humidity" + data.main.humidity;
+      "Humidity " + data.main.humidity  + "%";
     document.getElementById("visibility").innerText =
-      "Visibility" + data.visibility;
-    document.getElementById("wind").innerText = "Wind" + data.wind.speed;
+      "Visibility " + data.visibility + "km";
+    document.getElementById("wind").innerText = "Wind " + data.wind.speed + "km/h";
   });
